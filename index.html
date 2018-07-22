@@ -3,31 +3,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Time table</title> 
 <style>
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    border: 1px solid #ddd;
-}
-
-body {
-background-color: #d9d9d9;
-}
-th {
-background-color: grey;
-}
-
-th, td {
-    text-align: center;
-    padding: 8px;
-}
-
-tr:nth-child(even){background-color:#666666}
-tr:nth-child(odd){background-color:#8c8c8c}
-
 
 .footer {
-   position: absolute;
+   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -39,27 +17,28 @@ tr:nth-child(odd){background-color:#8c8c8c}
 </style> 
 </head>
 
-
+<body bgcolor="skyblue">
 <div class="timetable">
 <h1><FONT COLOR="DARKCYAN"><CENTER>BCA TimeTable - 3rd Sem</FONT></h1>
 <table border="2" cellspacing="3" align="center" width="100%" height="70%">
 <tr>
 
 
-<th align="center">
- <th align="center">9:10 am - 9:30 am
- <th align="center">9:45 am - 10:35 am
- <th align="center">10:35 am - 11:25 am
- <th align="center">11:25 am - 12:15 pm
- <th align="center">12:15 pm - 1:15 pm
- <th align="center">1:15 pm - 2:05 pm
- <th align="center">2:05 pm - 2:55 pm
- <th align="center">2:55 pm - 3:45 pm
+<td align="center">
+ <td align="center">9:10 am - 9:30 am
+ <td align="center">9:45 am - 10:35 am
+ <td align="center">10:35 am - 11:25 am
+ <td align="center">11:25 am - 12:15 pm
+ <td align="center">12:15 pm - 1:15 pm
+ <td align="center">1:15 pm - 2:05 pm
+ <td align="center">2:05 pm - 2:55 pm
+ <td align="center">2:55 pm - 3:45 pm
 
+ 
 
 </tr>
 
-<th align="center">MONDAY
+<td align="center">MONDAY
 <td rowspan="5"align="center">A<br>S<br>S<br>E<br>M<br>B<br>L<br>Y
 <td align="center"><font color="brown">C ++
 <td align="center">Discrete Mathematics
@@ -69,7 +48,7 @@ tr:nth-child(odd){background-color:#8c8c8c}
 <td align="center"><font color="Blue">--  
 </tr>
 <tr>
- <th align="center">TUESDAY
+ <td align="center">TUESDAY
  <td colspan="3" align="center"><font color="Navy">C ++ LAB<br>
  <td align="center"><font color="black">DBMS<br>
  <td align="center"><font color="Crimson">Discrete Mathematics<br>
@@ -77,20 +56,20 @@ tr:nth-child(odd){background-color:#8c8c8c}
 </tr>
 
 <tr>
- <th align="center">WEDNESDAY
+ <td align="center">WEDNESDAY
  <td colspan="3" align="center"><font color="Blue">DBMS<br>
  <td colspan="2" align="center"><font color="green">Organizational Behaviour<br>
  <td align="center" colspan="2">--<br>  
 </tr>
 <tr>
- <th align="center">THURSDAY
+ <td align="center">THURSDAY
  <td colspan="2" align="center"><font color="green">C ++<br>
  <td  align="center"><font color="brown">Computer Organisation and Architecture<br>
  <td colspan="2" align="center"><font color="MediumBlue">Organizational Behaviour<br>
  <td  align="center" ><font color="brown">Discrete Mathematics<br>
 </tr>
 <tr>
- <th align="center">FRIDAY
+ <td align="center">FRIDAY
  <td align="center"><font color="Blue">Discrete Mathematics<br>
  <td align="center"><font color="Black">DBMS<br>
  <td align="center"><font color="Crimson">O.S<br>
